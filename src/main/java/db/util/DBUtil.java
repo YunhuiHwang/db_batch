@@ -8,8 +8,12 @@ public class DBUtil {
         try {
             Class.forName("oracle.jdbc.OracleDriver");
 
+            //String dbUrl = "jdbc:oracle:thin:@//localhost:1521/dinkdb";
             String dbUrl = "jdbc:oracle:thin:@//192.168.217.202:1521/KOPODA";
             //String dbUrl = "jdbc:oracle:thin:@dinkdb_medium?TNS_ADMIN=C:/Users/DA/Downloads/Wallet_DinkDB";
+
+            //String dbUser = "scott";
+            //String dbPasswd = "tiger";
             String dbUser = "da2518";
             String dbPasswd = "da18";
 

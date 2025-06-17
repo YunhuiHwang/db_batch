@@ -25,7 +25,7 @@ public class Calc_Bonus_by_stmt_multi_3 {
              Statement stmt = conn.createStatement()) {
 
             stmt.setFetchSize(10);
-            String query = "SELECT * FROM CUSTOMER WHERE ENROLL_DT >= TO_DATE('2018-01-01','YYYY-MM-DD')";
+            String query = "SELECT * FROM CUSTOMER WHERE ENROLL_DT >= TO_DATE('2013-01-01','YYYY-MM-DD')";
             ResultSet rs = stmt.executeQuery(query);
 
             while (rs.next()) {

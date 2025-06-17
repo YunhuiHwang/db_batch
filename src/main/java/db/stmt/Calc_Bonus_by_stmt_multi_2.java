@@ -87,7 +87,7 @@ public class Calc_Bonus_by_stmt_multi_2 {
              Statement stmt = conn.createStatement()) {
 
             conn.setAutoCommit(false);
-            Date baseDate = sdf.parse("2018-01-01");
+            Date baseDate = sdf.parse("2013-01-01");
 
             for (Map<String, Object> row : customers) {
                 Date enrollDate = (Date) row.get("ENROLL_DT");

@@ -26,7 +26,7 @@ public class Calc_Bonus_by_stmt_multi_5 {
              Statement stmt = conn.createStatement()) {
 
             stmt.setFetchSize(1000);
-            ResultSet rs = stmt.executeQuery("SELECT * FROM CUSTOMER WHERE ENROLL_DT >= DATE '2018-01-01'");
+            ResultSet rs = stmt.executeQuery("SELECT * FROM CUSTOMER WHERE ENROLL_DT >= DATE '2013-01-01'");
 
             while (rs.next()) {
                 Map<String, Object> row = new HashMap<>();
